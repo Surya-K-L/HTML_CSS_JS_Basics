@@ -1,0 +1,12 @@
+<input id="box" onkeyup="display()">
+<h1 id="copy"></h1>
+
+<script>
+    let inpu=document.getElementById("box");
+    let para=document.getElementById("copy");
+
+    function display()
+    {
+        para.textContent=inpu.value;
+    }
+</script>
