@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InnerHtml</title>
+</head>
+<body>
+    <div id="one"></div>
+    <div id="two"></div>
+    <script>
+        let dione=document.getElementById("one");
+        let ditwo=document.getElementById("two");
+        dione.textContent="<h1>Hello</h1>";
+        ditwo.innerHTML="<h1>Hello</h1>";
+    </script>
+</body>
+</html>
