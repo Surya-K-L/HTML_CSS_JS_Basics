@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Button Click Example</title>
+</head>
+<body>
+    <h1 id="na">Name</h1>
+    <button onclick="updateName(event)">Surya</button>
+    <button onclick="updateName(event)">Rizwan</button>
+    <button onclick="updateName(event)">Tarani</button>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        var nameElement = document.getElementById("na");
+
+        function updateName(event) {
+            nameElement.textContent = event.target.textContent;
+        }
+    </script>
+</body>
+</html>
