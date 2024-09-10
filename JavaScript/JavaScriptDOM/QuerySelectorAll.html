@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuerySelectorAll</title>
+</head>
+<body>
+    <h1 class="ok">One</h1>
+    <h1 class="ok">Two</h1>
+    <h1 class="ok">Three</h1>
+
+    <script>
+        let di=document.querySelectorAll(".ok");
+        //to print the entire element
+        console.log(di[1]);
+        console.log(di[0]);
+        //to print only text content inside it
+        console.log(di[0].textContent);
+        console.log(di[1].textContent);
+    </script>
+</body>
+</html>
